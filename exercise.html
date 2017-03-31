@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>SimpleDEA by Brian Buccellato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="exercise.css">
+  </head>
+  <body onload="fetchDeaData()">
+	<div id="wrapper">
+		<h1>DEA License Status</h1>
+		<button class="button" onclick="showExpired()">show expired</button>
+		<button class="button" onclick="reset()">reset filter</button>
+		<div id="dea-list" class="list-container"></div>
+		<script src="csUtils.js"></script>
+		<script src="exercise.js"></script>
+	</div>
+  </body>
+</html>
